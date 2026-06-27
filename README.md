@@ -1,16 +1,30 @@
-# React + Vite
+# Laboratorio de Caminos Mínimos
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada para el curso de Algoritmos Avanzados de la UNSAAC (EPIIS). Permite visualizar y simular algoritmos de caminos mínimos en grafos, con el objetivo de apoyar la comprensión práctica de conceptos como Dijkstra y la interacción con datos de grafos.
 
-Currently, two official plugins are available:
+## ¿Qué hace?
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Carga y representa grafos desde la aplicación.
+- Calcula rutas de costo mínimo entre nodos, con diferentes algoritmos.
+- Muestra resultados y caminos de forma interactiva.
+- Facilita el estudio de algoritmos de teoría de grafos para el curso.
 
-## React Compiler
+## ¿Para qué sirve?
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Esta aplicación sirve como herramienta educativa para estudiantes de Algoritmos Avanzados, permitiendo explorar visualmente cómo funcionan los algoritmos de caminos mínimos y cómo cambian los resultados según el grafo y los pesos de sus aristas.
 
-## Expanding the ESLint configuration
+## Ejecutar en local
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+2. Inicia el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+3. Abre el navegador en la dirección que indique Vite (por ejemplo, `http://localhost:5173`).
+
+---
+
+Proyecto creado para el curso de Algoritmos Avanzados UNSAAC - EPIIS, Segunda Unidad.
